@@ -1,8 +1,11 @@
 Airbnb Listings & Reviews – Exploratory Data Analysis (EDA)
+---
+
 📌 Project Overview
 This project performs data cleaning, feature engineering, and exploratory data analysis (EDA) on Airbnb listings and reviews datasets.
 The analysis aims to uncover pricing patterns, neighborhood trends, review activity, and relationships between host attributes and customer sentiment.
 
+---
 🎯 Objectives
 Clean and preprocess Airbnb listings and reviews datasets.
 
@@ -12,6 +15,7 @@ Visualize key trends such as price distribution, neighborhood performance, and r
 
 Prepare datasets for advanced analysis or machine learning.
 
+---
 🛠 Tools & Libraries
 Python
 
@@ -20,6 +24,8 @@ Pandas – Data manipulation
 NumPy – Numerical operations
 
 Matplotlib & Seaborn – Data visualization
+
+---
 
 📂 Dataset Description
 1. Listings.csv
@@ -44,6 +50,7 @@ Reviewer ID
 
 Review date
 
+---
 
 🔗 Data Source
 This dataset is publicly available on Kaggle:https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
@@ -51,6 +58,7 @@ Airbnb Listings and Reviews Dataset
 
 cleaned file - both listings and reviews get after running the code file "airbnb eda analysis"
 
+---
 🔍 EDA Steps Performed
 Data Import & Initial Inspection
 
@@ -96,12 +104,16 @@ listings_cleaned.csv
 
 reviews_cleaned.csv
 
+---
+
 📊 Example Insights
 Some neighborhoods show significantly higher price ranges compared to others.
 
 High-rated listings are not always the most expensive.
 
 Review activity trends may indicate seasonal booking patterns.
+
+---
 
 🚀 How to Run the Project
 Clone this repository:
@@ -127,6 +139,7 @@ Edit
 python airbnb_eda.py
 View generated plots and cleaned CSV files.
 
+---
 
 📌 Author
 Jaya Bijore
