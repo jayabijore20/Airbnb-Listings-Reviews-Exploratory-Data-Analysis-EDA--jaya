@@ -60,13 +60,13 @@ cleaned file - both listings and reviews get after running the code file "airbnb
 
 ---
 ##🔍 EDA Steps Performed
-Data Import & Initial Inspection
+*Data Import & Initial Inspection
 
 Loaded Listings.csv and Reviews.csv into Pandas DataFrames.
 
 Checked shape, column names, and sample rows.
 
-Data Cleaning
+*Data Cleaning
 
 Removed currency symbols from price and converted to numeric.
 
@@ -74,7 +74,7 @@ Dropped columns with more than 50% missing values.
 
 Handled missing values appropriately.
 
-Feature Engineering
+*Feature Engineering
 
 price_per_bedroom = price / bedrooms
 
@@ -86,7 +86,7 @@ review_length = number of characters in review comments.
 
 Converted review dates to datetime.
 
-Exploratory Visualizations
+*Exploratory Visualizations
 
 Price Distribution – histogram with KDE.
 
@@ -96,7 +96,7 @@ Price vs Review Rating – scatterplot for price under $1000.
 
 Reviews Over Time – time series trend of reviews.
 
-Data Export
+*Data Export
 
 Saved cleaned datasets as:
 
